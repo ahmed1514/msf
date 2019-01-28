@@ -48,8 +48,52 @@ echo "\033[32;1mRequired Installation Process Package"
 
 sleep 1
 
-apt install -y autoconf bison clang coreutils axel curl findutils git apr apr-util libffi-dev libgmp-dev libpcap-dev postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config wget make ruby-dev libgrpc-dev termux-tools ncurses-utils ncurses unzip zip tar postgresql termux-elf-cleaner
-apt update && apt upgrade
+apt install -y autoconf &> /dev/null
+apt install -y bison &> /dev/null
+apt install -y clang &> /dev/null
+apt install -y coreutils &> /dev/null
+apt install -y axel &> /dev/null
+apt install -y curl &> /dev/null
+apt install -y findutils &> /dev/null
+apt install -y git  &> /dev/null
+apt install -y apr &> /dev/null
+apt install -y apr-util &> /dev/null
+apt install -y libffi-dev &> /dev/null
+apt install -y libgmp-dev &> /dev/null
+apt install -y libpcap-dev &> /dev/null
+apt install -y postgresql-dev &> /dev/null
+apt install -y readline-dev &> /dev/null
+apt install -y libsqlite-dev &> /dev/null
+apt install -y openssl-dev &> /dev/null
+apt install -y libtool &> /dev/null
+apt install -y libxml2-dev &> /dev/null
+apt install -y libxslt-dev &> /dev/null
+apt install -y ncurses-dev &> /dev/null
+apt install -y pkg-config &> /dev/null
+apt install -y wget &> /dev/null
+apt install -y make &> /dev/null
+apt install -y ruby-dev &> /dev/null
+apt install -y libgrpc-dev &> /dev/null
+apt install -y termux-tools &> /dev/null
+apt install -y ncurses-utils &> /dev/null
+apt install -y ncurses &> /dev/null
+apt install -y unzip &> /dev/null
+apt install -y zip &> /dev/null
+apt install -y tar &> /dev/null
+apt install -y postgresql &> /dev/null
+apt install -y termux-elf-cleaner &> /dev/null
+
+apt install -y python2 &> /dev/null
+apt install -y python2-pip &> /dev/null
+pip2 install -y requests &> /dev/null
+apt install -y figlet &> /dev/null
+
+clear
+clear
+clear
+clear
+clear
+apt update && apt -y upgrade &> /dev/null
 echo "\033[32;1mThe Process of Downloading Support Files"
 sleep 1
 
