@@ -41,7 +41,7 @@ echo "____________________________________________________________"|lolcat
 sleep 3
 echo "\033[35;1m            Bila Sakit Berlanjut Hubungi Dokter"
 echo "------------------------------------------------------------"|lolcat
-read -p "Siap? [Y/T]=" AAhmed
+read -p "R U Ready? [Y/N]=" AAhmed
 if [ $AAhmed = Y ] || [ $AAhmed = y ]
 then
 echo "\033[32;1mRequired Installation Process Package"
